@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: bitnami/nginx:1.25.0
+        image: bitnami/nginx:latest
         ports:
         - containerPort: 8080
         env:
